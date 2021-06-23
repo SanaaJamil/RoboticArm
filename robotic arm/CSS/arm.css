@@ -1,0 +1,87 @@
+/*Sanaa Jamil Dahlawi
+     Umm-Al-Qura university 
+	 +966558922571
+	 snadhlwy@gmail.com 
+	 */
+.slidecontainer {
+  width: 100%; /* outside container width */
+  	margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+/* The slider */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  border: 50px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+#site-footer { /* to add some style in footer and header*/
+	margin-top: 150px;
+width:	100%;
+height: 5%;
+background: #04AA6D;
+
+}
+#site-header{ /* to add some style in footer and header*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+width:  100%;
+height: 5%;
+background: #04AA6D;
+
+}
+/* to center the page */
+html, body { 
+    height: 100%;
+}
+
+html { 
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* to style the input */
+input {
+ height: 20px;
+ width: 300px;
+ border: 1px solid #000;
+ margin-top: 10px;
+ float: left;
+}
+
